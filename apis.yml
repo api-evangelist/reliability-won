@@ -1,4 +1,16 @@
 aid: reliability-won
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reliability-won.png
 name: Reliability Won
 description: Reliability Won is a company surfaced as a portfolio company of battery-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,10 +24,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Probed reliabilitywon.com — parked/placeholder page titled "Reliability Won
+    CMS", no active company site, products, developer docs, or API surface. Likely
+    a dead VC-portfolio scrape lead. No verifiable artifacts to add.'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
